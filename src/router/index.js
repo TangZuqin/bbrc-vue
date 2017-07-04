@@ -4,6 +4,9 @@ import Hello from '@/components/Hello'
 import Foo from '@/components/Foo'
 import Bar from '@/components/Bar'
 import User from '@/components/User'
+import DataPortal from '@/components/DataPortal'
+import Biobank from '@/components/Biobank'
+import PrivateAccess from '@/components/PrivateAccess'
 
 Vue.use(Router)
 
@@ -28,6 +31,21 @@ export default new Router({
       path: '/user/:id',
       name: 'User',
       component: User
+    },
+    {
+      path: '/dataProtal',
+      name: 'DataPortal',
+      component: DataPortal
+    },
+    {
+      path: '/biobank',
+      name: 'Biobank',
+      component: Biobank
+    },
+    {
+      path: '/PrivateAccess',
+      name: 'PrivateAccess',
+      component: PrivateAccess
     }
   ]
 })

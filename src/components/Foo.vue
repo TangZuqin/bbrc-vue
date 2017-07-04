@@ -13,7 +13,9 @@
               目前收录北京市辖区16个样本库
             </div>
             <div class="action" style="padding-top:50px">
-              <a href="starter.html" class="btn btn-primary bg-blue">进入样本库</a>
+              <router-link :to="{ name: 'Bar'}" class="logo">
+                <span class="btn btn-primary bg-blue">进入样本库</span>
+              </router-link>
             </div>
           </div>
         </div>

@@ -10,8 +10,18 @@
             </router-link>
           </div>
           <div class="navbar-custom-menu pull-left">
-            <router-link :to="{ name: 'Bar'}" class="logo">
+            <router-link :to="{ name: 'DataPortal'}" class="logo">
               <i class="fa fa-database"></i>数据门户
+            </router-link>
+          </div>
+          <div class="navbar-custom-menu pull-left">
+            <router-link :to="{ name: 'Biobank'}" class="logo">
+              <i class="fa fa-bank"></i>生物银行
+            </router-link>
+          </div>
+          <div class="navbar-custom-menu pull-left">
+            <router-link :to="{ name: 'PrivateAccess'}" class="logo">
+              <i class="fa fa-briefcase"></i>授权访问
             </router-link>
           </div>
           <div class="navbar-custom-menu">
@@ -34,7 +44,7 @@
         </div>
         </nav>
       </header>
-      <div class="content-wrapper">
+      <div class="content-wrapper" style="min-height: 750px">
 <!--
     <h1>Hello App!</h1>
     <p>
