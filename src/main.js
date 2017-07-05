@@ -3,6 +3,7 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
+import echarts from 'echarts'
 /* eslint-disable no-unused-vars */
 import $ from 'jQuery'
 import 'bootstrap/dist/css/bootstrap.min.css'
@@ -15,7 +16,10 @@ import 'bootstrap/dist/js/bootstrap.min.js'
 import 'admin-lte/dist/js/app.min.js'
 import 'select2/dist/js/select2.full.min.js'
 import 'admin-lte/dist/js/demo.js'
+import 'echarts/dist/echarts.js'
 Vue.config.productionTip = false
+
+Vue.prototype.$echarts = echarts
 
 /* eslint-disable no-new */
 new Vue({
